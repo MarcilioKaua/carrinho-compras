@@ -1,0 +1,28 @@
+.cart_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 1em;
+  font-size: 1.7rem;
+  border: none;
+  background: none;
+  padding: 0.35em;
+  cursor: pointer;
+}
+
+.cart_btn span {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f08804;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50%;
+}
+
