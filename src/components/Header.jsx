@@ -1,4 +1,4 @@
-import Cart from './Cart'
+import CartBtn from './CartBtn'
 import Search from './Search'
 import style from './Header.module.css'
 
@@ -7,7 +7,7 @@ function Header() {
     <header className={style.header}>
       <div> 
         <Search />
-        <Cart />
+        <CartBtn />
       </div>
     </header>
   )
